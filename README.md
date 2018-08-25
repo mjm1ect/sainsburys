@@ -14,7 +14,7 @@ To run the API endpoint /api/totals, it would be advised to use Postman or simil
 
 ``` bash
 # Clone rep
-git clone git@github.com:JeffreyWay/council.git
+git clone git@github.com:mjm1ect/sainsburys.git
 
 composer install
 
