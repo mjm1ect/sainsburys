@@ -28,7 +28,7 @@ php vendor/phpunit/phpunit/phpunit
 Once the application to serving, you will be able to POST the JSON examples provided in the brief to the API endpoint: ```/api/totals```
 
 ## Testing
-Some basic automated testing of posting to the Api (/api/totals) and checking the response total has been implemented using phpunit.
+Some basic automated testing of POST requests to the Api ```/api/totals``` and checking the response total has been implemented using phpunit feature tests, ideally some unit tests would also be completed to test specific funtions etc.
 
 ``` bash
 # phpunit test
