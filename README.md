@@ -8,7 +8,7 @@
 To run this project, you must have PHP 7 installed. (This app uses the Laravel 5.6 framework).
 You should setup a host on your web server for your local domain. You should be able to run using the command 'php artisan serve'. Alternatively, for this you could also configure Laravel Homestead or Valet. (Homestead example: edit - etc\hosts e.g. - 127.0.0.1 sainsburys.1, and amended Homestead.yaml to map: sainsburys.1 to the projects public directory)
 
-The API has one Post endpoint ```bash /api/totals ```, which takes a JSON request body containing the products to be totalled and returns a total price for the basket.
+The API has one Post endpoint ``/api/totals```, which takes a JSON request body containing the products to be totalled and returns a total price for the basket.
 
 To run the API endpoint /api/totals, it would be advised to use Postman or similar software for easy of use.
 
@@ -25,7 +25,7 @@ php artisan serve
 php vendor/phpunit/phpunit/phpunit
 ```
 
-Once the application to serving, you will be able to POST the JSON examples provided in the brief to the API endpoint: ```bash /api/totals ```
+Once the application to serving, you will be able to POST the JSON examples provided in the brief to the API endpoint: ```/api/totals```
 
 ## Testing
 Some basic automated testing of posting to the Api (/api/totals) and checking the response total has been implemented using phpunit.
