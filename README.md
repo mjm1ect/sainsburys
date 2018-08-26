@@ -10,7 +10,7 @@ You should setup a host on your web server for your local domain. You should be 
 
 The API has one Post endpoint ```/api/totals```, which takes a JSON request body containing the products to be totalled and returns a total price for the basket.
 
-To access the API endpoint /api/totals, it would be advised to use Postman or similar software for easy of use.
+To access the API endpoint /api/totals, it would be advised to use Postman or similar software for ease of use.
 
 ``` bash
 # Clone repo
