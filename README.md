@@ -6,7 +6,7 @@
 
 ## Prerequisites
 To run this project, you must have PHP 7 installed. (This app uses the Laravel 5.6 framework).
-You should setup a host on your web server for your local domain. You should be able to run using the command 'php artisan serve'. Alternatively, for this you could also configure Laravel Homestead or Valet. (Homestead example: edit - etc\hosts e.g. - 127.0.0.1 sainsburys.1, and amended Homestead.yaml to map: sainsburys.1 to the projects public directory)
+You should setup a host on your web server for your local domain. You should be able to run using the command 'php artisan serve'. Alternatively, for this you could also configure Laravel Homestead or Valet.
 
 The API has one Post endpoint ```/api/totals```, which takes a JSON request body containing the products to be totalled and returns a total price for the basket.
 
